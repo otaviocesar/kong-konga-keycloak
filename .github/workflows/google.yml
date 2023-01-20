@@ -17,7 +17,7 @@ on:
     branches: [ "main" ]
 
 env:
-  PROJECT_ID: solucx-keycloak-test-1
+  PROJECT_ID: '${{ secrets.GCP_PROJECT_ID }}'
   GAR_LOCATION: southamerica-east1 # TODO: update region of the Artifact Registry
   GKE_CLUSTER: cluster-1    # TODO: update to cluster name
   GKE_ZONE: southamerica-east1-a  # TODO: update to cluster zone
