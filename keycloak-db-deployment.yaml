@@ -32,7 +32,7 @@ spec:
             - containerPort: 5432
           resources: {}
           volumeMounts:
-            - mountPath: /var/lib/postgresql/data
+            - mountPath: /var/lib/postgresql/data/db_files
               name: keycloak-datastore
       restartPolicy: Always
       volumes:
