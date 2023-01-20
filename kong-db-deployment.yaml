@@ -31,7 +31,7 @@ spec:
             - containerPort: 5432
           resources: {}
           volumeMounts:
-            - mountPath: /var/lib/postgresql/data/db_files
+            - mountPath: kong-datastore:/var/lib/postgresql/data/db_files
               name: kong-datastore
       restartPolicy: Always
       volumes:
