@@ -25,10 +25,6 @@ spec:
         io.kompose.service: kong
     spec:
       containers:
-        - args:
-          - kong
-          - migrations
-          - bootstrap
         - env:
             - name: KONG_ADMIN_ACCESS_LOG
               value: /dev/stdout
