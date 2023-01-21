@@ -26,7 +26,7 @@ spec:
           value: kong
         - name: KONG_PG_USER
           value: kong
-      image: kong:2.3.2-alpine
+      image: kong:3.1.1-alpine
       name: kong-migrations
       resources: {}
   restartPolicy: OnFailure
