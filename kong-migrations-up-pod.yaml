@@ -23,7 +23,7 @@ spec:
         - name: KONG_DATABASE
           value: postgres
         - name: KONG_PG_DATABASE
-          value: kong
+          value: api-gw
         - name: KONG_PG_HOST
           value: 10.88.2.26
         - name: KONG_PG_PASSWORD

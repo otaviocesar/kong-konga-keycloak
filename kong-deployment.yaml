@@ -39,7 +39,7 @@ spec:
             - name: KONG_PG_DATABASE
               value: api-gw
             - name: KONG_PG_HOST
-              value: kong-db
+              value: 10.88.2.26
             - name: KONG_PG_PASSWORD
               value: kong
             - name: KONG_PG_PORT
