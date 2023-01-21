@@ -33,9 +33,7 @@ spec:
         - name: KONG_PG_PASSWORD
           value: kong
         - name: KONG_PG_USER
-          value: kong
-        - name: KONG_PLUGINS
-          value: bundled,oidc          
+          value: kong         
         - name: KONG_PROXY_ACCESS_LOG
           value: /dev/stdout
         - name: KONG_PROXY_ERROR_LOG
