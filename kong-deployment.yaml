@@ -54,7 +54,7 @@ spec:
               value: /dev/stderr
             - name: KONG_PROXY_LISTEN
               value: 0.0.0.0:8000, 0.0.0.0:8443 ssl
-          image: kong:3.1.1-alpine
+          image: kong:3.1.1-alpine kong migrations bootstrap
           name: kong
           ports:
             - containerPort: 8000
