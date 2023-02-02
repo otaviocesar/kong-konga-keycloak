@@ -19,7 +19,7 @@ spec:
         - name: KONG_ADMIN_LISTEN
           value: 0.0.0.0:8001, 0.0.0.0:8444 ssl
         - name: KONG_CASSANDRA_CONTACT_POINTS
-          value: kong-db
+          value: 10.88.0.11
         - name: KONG_DATABASE
           value: postgres
         - name: KONG_LOG_LEVEL
@@ -27,7 +27,7 @@ spec:
         - name: KONG_PG_DATABASE
           value: api-gw
         - name: KONG_PG_HOST
-          value: kong-db
+          value: 10.88.0.11
         - name: KONG_PG_PORT
           value: "5432"          
         - name: KONG_PG_PASSWORD
